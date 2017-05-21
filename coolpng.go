@@ -66,8 +66,15 @@ func drawpng(s, s2 string) (image.Image, error) {
 	return dest, nil
 }
 
+func realip(r *http.Request) string {
+	if ip := r.Header.Get("X-Forwarded-For"); ip != "" {
+		return ip
+	}
+
+	return r.RemoteAddr
+}
 func handler(w http.ResponseWriter, r *http.Request) {
-	iimg, err := drawpng(r.RemoteAddr, r.UserAgent())
+	iimg, err := drawpng(realip(r), r.UserAgent())
 	if err != nil {
 		println(err.Error())
 		w.Write([]byte("error\n"))
@@ -79,8 +86,18 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	encoder.Encode(w, iimg)
 	return
 }
+func homehandle(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte(`<!DOCTYPE html>
+	<html>
+	<img src="/cat.png">
+	<!-- https://github.com/aerth/coolpng/ -->
+	</html>
+	
+	`))
+}
 func main() {
 	println("listening: ", lport)
+	http.Handle("/", http.HandlerFunc(homehandle))
 	http.Handle("/image.png", http.HandlerFunc(handler))
 	http.Handle("/cat.png", http.HandlerFunc(handler))
 	err := http.ListenAndServe(lport, nil)
