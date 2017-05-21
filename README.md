@@ -5,6 +5,8 @@ This server just serves an image with your IP on it
 Credits:
 
 ```
+3 (of many more) ways of writing text to image in go: https://gist.github.com/AndreKR/c373effad367a5e61871ecf495b80232
+
 Terminus TTF Font
 Source: http://files.ax86.net/terminus-ttf/
 The license of Terminus TTF follows that of Terminus Font.
