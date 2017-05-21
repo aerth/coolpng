@@ -1,6 +1,6 @@
 This server just serves an image with your IP on it
 
-![example](http://coolpng.herokuapp.com/cat.png)
+![example](https://coolpng.herokuapp.com/cat.png)
 
 Credits:
 
