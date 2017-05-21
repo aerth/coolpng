@@ -3,22 +3,6 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "/IgtMOBRqTxEAfVs7ATBXQMVRf4=",
-			"path": "errors",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "uaoY/P9we+9GauKykok1N4ZFnhE=",
-			"path": "fmt",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "4casWCVT00jp21jxXUecDuJMejc=",
-			"path": "github.com/aerth/coolpng",
-			"revision": "9f93bb3a55306692cd8522ab812ec6368fabdb36",
-			"revisionTime": "2017-05-21T22:34:22Z"
-		},
-		{
 			"checksumSHA1": "w01kP96jx5UAf+uWB8m0w8Xghas=",
 			"path": "github.com/golang/freetype",
 			"revision": "bcfeb16b74e8aea9e2fe043406f2ef74b1cb0759",
@@ -47,66 +31,6 @@
 			"path": "golang.org/x/image/math/fixed",
 			"revision": "f483456c9f61fd7c1e170033d58ef22ff5ffe291",
 			"revisionTime": "2017-04-30T07:13:35Z"
-		},
-		{
-			"checksumSHA1": "U0HAjbV9oNUBV1QSukvfnAWEnaM=",
-			"path": "image",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "JL2gImMNZ0nj2ypcS27BSQ/5Skg=",
-			"path": "image/color",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "GLpQhEEYEHLe7FXnxQ+8C3K8jyA=",
-			"path": "image/draw",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "/2NVVKiFVtqWDB3DiyTYvtR44hI=",
-			"path": "image/png",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "Mqq0pKX+wdBcjDIBrSonKBq5uwY=",
-			"path": "io",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "ZrISBv7JIvHtz5gnBi25kFId5qs=",
-			"path": "io/ioutil",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "3GmfIccu2WMPjc+Zl68+B+h+oIA=",
-			"path": "math",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "6X2DERvf7KEE0pmqQOOUf+6uteM=",
-			"path": "net/http",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "jAhwS3HpBiDkk1FROcJPFiOqRVM=",
-			"path": "os",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "QcvzAGAO6c+SWOC7d+dJZsVg2es=",
-			"path": "strconv",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "BlMhw951Zq2qGykslifj757d0+8=",
-			"path": "strings",
-			"revision": ""
-		},
-		{
-			"checksumSHA1": "Gv8TqXeCicz9pwp0U4tmwY4DECw=",
-			"path": "unicode/utf8",
-			"revision": ""
 		}
 	],
 	"rootPath": "github.com/aerth/coolpng"
